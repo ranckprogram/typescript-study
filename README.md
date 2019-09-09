@@ -32,7 +32,8 @@ tsc index.ts --watch
 - export 可以导出任何申明
 - 可用as重命名
 - import 导入
-- 目前浏览器还是不能很好的的处理es6语法因此还需要转成es5，通过browerify或者其他方式
+- 目前浏览器还是不能很好的的处理es6语法因此还需要转成es5，通过browerify或者其他方式 tsconfig.json
+- 只有一个class或者function时候考虑使用 export default，使用export default 导出的模块 不需要在 { } 里面
 
 ### typescript 工程化
 
