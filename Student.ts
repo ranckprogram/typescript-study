@@ -1,5 +1,5 @@
 interface studentInterface {
-    name: String,
+    name?: String,
     age: Number,
     greeting(message: string)
 }

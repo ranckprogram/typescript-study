@@ -1,5 +1,5 @@
-const list = ['ranck', 'sofy']
+var list = ['ranck', 'sofy']
 
-const [me, she] = list
+var [me, she] = list
 
 console.log(me, she)
