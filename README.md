@@ -49,3 +49,33 @@ typescript 是个不错的工具，在开发可维护代码方面有其独到之
 
 ### 类型推断
 
+
+
+
+## 集成glup
+
+
+全局安装gulp 工具
+```
+npm install --global gulp-cli
+
+```
+
+
+项目package 中安装运行时依赖
+```
+npm init
+npm install --save-dev typescript gulp gulp-typescript
+```
+
+
+创建gulpfile.js
+
+```
+```
+
+
+创建tsconfig.js
+
+```
+```
